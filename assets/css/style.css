@@ -201,6 +201,10 @@ img{
     width: 200px;
 }
 
+.content-header a{
+    width: 200px;
+}
+
 .stack{
     margin-right: 0px;
 }
