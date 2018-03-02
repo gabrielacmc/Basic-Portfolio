@@ -168,6 +168,39 @@ img{
     margin-right: 23.5px;
 }
 
+#project-one,
+#project-two,
+#project-three,
+#project-four,
+#project-five,
+#project-six {
+    position: relative;
+    width: 200px;
+    float: left;
+    margin-left: 47px;
+    margin-top: 30px;
+}
+#project-text-one,
+#project-text-two,
+#project-text-three,
+#project-text-four,
+#project-text-five,
+#project-text-six{
+    position: absolute;
+    top: 150px;
+    background: #4aaaa5;
+    width: 180px;
+    height: 15px;
+    color:#ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.portfolio-image {
+    height: 200px;
+    width: 200px;
+}
+
 .stack{
     margin-right: 0px;
 }
@@ -183,14 +216,35 @@ footer{
     border-top-style: solid;
     border-top-width: 5px;
     margin-top: 18px;
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
 
-.push {
+.push,
+.footer {
   height: 70px;
+}
+
+.paragraph {
+    margin-top: 20px;
+    line-height: 1.5;
+
+}
+
+.gnocchi {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
 }
 
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
+  }
+
+  html,
+  body{
+    height: 100%;
+    margin: 0;
   }
