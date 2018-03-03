@@ -68,8 +68,8 @@ a:link, a:visited, a:hover, a:active {
 .container {
     width: 960px;
     margin: 0 auto;
-    min-height: 100%;
-    margin-bottom: -70px;
+    margin-bottom: 18px;
+   
 }
 
 .contact {
@@ -209,7 +209,7 @@ img{
     margin-right: 0px;
 }
 
-footer{
+.footer{
     clear: both;
     background-color: #666666;
     padding: 17px;   
@@ -222,11 +222,28 @@ footer{
     margin-top: 18px;
     padding-top: 30px;
     padding-bottom: 25px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+  
 }
 
-.push,
-.footer {
-  height: 70px;
+.newfooter{
+    /* clear: both;  */
+    position: fixed;
+    bottom: 0px;
+/* background-color: #666666;
+    padding: 17px;   
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 5px;
+    margin-top: 18px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 100%; */
 }
 
 .paragraph {
@@ -247,8 +264,6 @@ footer{
     clear: both;
   }
 
-  html,
-  body{
-    height: 100%;
-    margin: 0;
-  }
+
+
+ 
