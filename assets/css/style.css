@@ -229,21 +229,8 @@ img{
 }
 
 .newfooter{
-    /* clear: both;  */
     position: fixed;
     bottom: 0px;
-/* background-color: #666666;
-    padding: 17px;   
-    color: #ffffff;
-    text-align: center;
-    font-size: 10px;
-    border-top-color: #4aaaa5;
-    border-top-style: solid;
-    border-top-width: 5px;
-    margin-top: 18px;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    width: 100%; */
 }
 
 .paragraph {
